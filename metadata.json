@@ -1,0 +1,6 @@
+{
+  "name": "Sumit iPhone Editor",
+  "description": "Full-scale iOS-styled photo editor with real-time color adjustments, filters, crop, rotate, compare, and gallery saving.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
