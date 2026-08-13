@@ -18,4 +18,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: My-AdMob-App
-        path: '**/output*/**/*.apk'
+        path: app/build/outputs/apk/debug/app-debug.apk
