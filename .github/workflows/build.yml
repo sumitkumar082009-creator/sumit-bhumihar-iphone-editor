@@ -12,10 +12,10 @@ jobs:
         distribution: 'temurin'
     - name: Create local.properties
       run: echo "sdk.dir=/usr/local/lib/android/sdk" > local.properties
-    - name: Build APK with Debug
-      run: ./gradlew assembleDebug --no-daemon
+    - name: Build APK with Release
+      run: ./gradlew assembleRelease --no-daemon
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: app-debug
-        path: app/build/outputs/apk/**/*.apk
+        name: app-release
+        path: app/build/outputs/apk/release/*.apk
