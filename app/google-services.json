@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1013904549361",
+    "project_id": "sumit-iphone-editor",
+    "storage_bucket": "sumit-iphone-editor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013904549361:android:a16911d5f2d6dbccda1050",
+        "android_client_info": {
+          "package_name": "com.ai.studio.iphone.editor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnxD_Z531lvV8iutmLTz9xsxH4X8baiZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
